@@ -1,0 +1,225 @@
+/* 오늘의 쇼핑 제안 */
+
+.Star0,
+.Star1,
+.Star2,
+.Star3,
+.Star4,
+.Star5,
+.Star6,
+.Star7,
+.Star8,
+.Star9,
+.Star10 {
+  background: url("../../assets/sprites/rating-stars.png") no-repeat;
+}
+
+.Star0 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 0;
+}
+
+.Star1 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -13.81px;
+}
+
+.Star2 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -27.62px;
+}
+
+.Star3 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -41.43px;
+}
+
+.Star4 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -55.24px;
+}
+
+.Star5 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -69.05px;
+}
+
+.Star6 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -82.86px;
+}
+
+.Star7 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -96.67px;
+}
+
+.Star8 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -110.48px;
+}
+
+.Star9 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -124.29px;
+}
+
+.Star10 {
+  width: 68px;
+  height: 13.81px;
+  background-position: 0 -138.1px;
+}
+
+img.Logo {
+  width: 176px;
+  height: 40px;
+}
+
+.Title {
+  position: absolute;
+  width: 1022px;
+  height: 40px;
+  left: 147px;
+  top: 100px;
+}
+
+.Offer {
+  display: flex;
+  position: absolute;
+  width: 1022px;
+  height: 354px;
+  top: 203px;
+  left: 138px;
+}
+
+.Suggest {
+  margin: 0;
+  display: inline;
+  width: 168px;
+  height: 28px;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.15;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  background: url("../../assets/icon/shopping.svg") no-repeat;
+  background-size: cover;
+}
+
+.IconText {
+  height: 30px;
+}
+
+.SuggestBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  position: absolute;
+  width: 1020px;
+  height: 270px;
+  left: 2px;
+  top: 54px;
+}
+
+.SuggestBox-item {
+  width: 200px;
+  height: 270px;
+  background-color: var(--color-white);
+}
+
+.SuggestBox-item-image {
+  position: relative;
+  left: 20px;
+  top: 14px;
+  width: 160px;
+  height: 160px;
+}
+
+.BadgeDiscount {
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  border-radius: 0 0 5px 0;
+  background-color: var(--color-red-500);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 3px 10px;
+  z-index: 2;
+}
+
+.Discount {
+  width: 33px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+
+.SuggestBox-item-contents {
+  width: 172px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 12px 0 0 14px;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.SuggestBox-item-contents-text {
+  width: 172px;
+  height: 17px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.SuggestBox-item-contents-StarReiview {
+  display: flex;
+  flex-direction: row;
+}
+
+.Reiview {
+  width: 45px;
+  height: 17px;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-left: 2px;
+  color: var(--color-gray-700);
+}
+
+img.BadgeRocket {
+  width: 55px;
+  height: 16px;
+  margin-bottom: -6px;
+}
+
+.Freeshipping {
+  width: 52px;
+  height: 17px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-gray-700);
+  margin-bottom: -8px;
+}
